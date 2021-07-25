@@ -18,8 +18,13 @@ console.log('Importing module');
 
 import add, { cart } from './shoppingCart.js';
 add('pizza', 2);
+
+
 add('bread', 5);
+
+const resource = "test"
 add('apples', 4);
+
 
 console.log(cart);
 
